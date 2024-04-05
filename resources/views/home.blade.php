@@ -9,10 +9,12 @@
 </head>
 <body>
     
+    <div class="container py-5">
 
-    <h1>
-        {{ $saluto }}
-    </h1>
+        <h1>
+            {{ $saluto }}
+        </h1>
+    </div>
 
 
 

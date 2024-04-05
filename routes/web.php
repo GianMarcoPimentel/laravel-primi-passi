@@ -17,7 +17,12 @@ Route::get('/', function () {
 
     //creo uan variabile
 
-    $saluto = 'Hello World';
+    $saluto = 'Hello World !!';
 
     return view('home', compact('saluto'));
+});
+
+Route::get('/secondaPagina', function () {
+
+    return view('secondaPagina');
 });
