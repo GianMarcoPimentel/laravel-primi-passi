@@ -10,12 +10,8 @@
 
 </head>
 <body>
+    
     <div class="container py-5">
-        <header>
-            <a href=""></a>
-        </header>
-    </div>
-    <div class="container">
         <h1>
             Seconda pagina
         </h1>
