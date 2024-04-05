@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    //creo uan variabile
+
+    $saluto = 'Hello World';
+
+    return view('home', compact('saluto'));
 });
