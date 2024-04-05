@@ -10,6 +10,12 @@
 
 </head>
 <body>
+
+    <div class="container py-5">
+        <header>
+            <a href="{{ route('home') }}"> Torna alla pagina prececedente</a>
+        </header>
+    </div>
     
     <div class="container py-5">
         <h1>

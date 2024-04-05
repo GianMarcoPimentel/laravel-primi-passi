@@ -20,9 +20,9 @@ Route::get('/', function () {
     $saluto = 'Hello World !!';
 
     return view('home', compact('saluto'));
-});
+})->name('home');
 
 Route::get('/secondaPagina', function () {
 
     return view('secondaPagina');
-});
+})->name('seconda');

@@ -10,7 +10,7 @@
 <body>
     <div class="container py-5">
         <header>
-            <a href="/secondaPagina"> Vai alla seconda pagina</a>
+            <a href="{{ route('seconda') }}"> Vai alla seconda pagina</a>
         </header>
     </div>
     
